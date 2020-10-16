@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/372ad6816f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>SPA Login</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <section id="menu" class="menu">
+          <div class="navList">
+            <div class="infoDiv">
+              <div class="buttonList"><i class="fas fa-home">Home</i></div>
+            </div>
+            <div id="buttonLogged" class="buttonLogged"></div>
+          </div>
+          <div id="buttonHide" class="buttonHide">
+            Logout <i class="fas fa-sign-out-alt"></i>
+          </div>
+        </section>
+      </nav>
+    </header>
+    <main>
+      <section id="login" class="login">
+        <div class="container">
+          <form class="formLogin">
+            <h1>DOM!</h1>
+            <div class="data">
+              <label class="nameInfo">Usuário</label>
+              <input
+                type="text"
+                id="inputLogin"
+                class="itemForm"
+                placeholder="Login"
+                required
+                autofocus
+              />
+              <label class="nameInfo">Password</label>
+              <input
+                type="password"
+                id="inputPassword"
+                class="itemForm"
+                placeholder="Password"
+                required
+              />
+              <input
+                type="button"
+                id="buttonLogin"
+                class="itemForm colorButton"
+                value="Entrar"
+              />
+            </div>
+          </form>
+        </div>
+      </section>
+      <section id="content">
+        <div class="contentDiv">
+          <p>Olá, seja bem vindo ao local mais legal do mundo :)</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Project by Rafael Maito</p>
+    </footer>
+    <script src="js/users.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
